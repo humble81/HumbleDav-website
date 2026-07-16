@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (talkBtn) {
         talkBtn.addEventListener('click', function (e) {
             e.preventDefault();
-            window.open('https://wa.me/1238145124446?text=Hi%20Humble%2C%20I%20have%20a%20project%20in%20mind!', '_blank');
+            window.open('https://wa.me/qr/F5JDKPJ3DZVTI1', '_blank');
         });
     }
 
