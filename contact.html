@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact — Humble Dav</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="container">
+            <a href="index.html" class="nav__logo">Humble Dav</a>
+            <div class="nav__links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html" class="active">Contact</a>
+                <a href="contact.html" class="nav__cta">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="orb" aria-hidden="true"></div>
+    <div class="orb orb--bottom" aria-hidden="true"></div>
+
+    <main class="container">
+        <header class="hero" style="border-bottom: none; margin-bottom: 20px;">
+            <div class="hero__badge"><i class="fas fa-envelope" style="color:var(--accent);"></i> Let's Connect</div>
+            <h1 class="hero__name" style="font-size: clamp(2.4rem, 6vw, 3.6rem);">Contact</h1>
+            <p class="hero__title">Have a project? Let's make it happen.</p>
+        </header>
+
+        <div class="contact-wrapper">
+            <!-- Form -->
+            <div class="contact-form">
+                <form id="contactForm">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="John Doe" required />
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="john@example.com" required />
+
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Tell me about your project..." required></textarea>
+
+                    <button type="submit" class="btn btn--primary" style="width:100%; justify-content:center;">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+
+            <!-- Contact info -->
+            <div class="contact-info">
+                <div class="contact-info__item">
+                    <i class="fas fa-phone-alt"></i>
+                    <div><span>Phone</span><br />08145124446</div>
+                </div>
+                <div class="contact-info__item">
+                    <i class="fas fa-envelope"></i>
+                    <div><span>Email</span><br />iamhumble81@gmail.com</div>
+                </div>
+                <div class="contact-info__item">
+                    <i class="fab fa-whatsapp"></i>
+                    <div><span>WhatsApp</span><br />+123 814 512 4446</div>
+                </div>
+                <div class="contact-info__item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div><span>Location</span><br />COOU, Uli Campus</div>
+                </div>
+                <div style="margin-top: 12px;">
+                    <a href="https://wa.me/1238145124446?text=Hi%20Humble%2C%20I%20need%20a%20website!" target="_blank" class="btn btn--whatsapp" style="width:100%; justify-content:center;">
+                        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- CTA -->
+        <section class="cta">
+            <h2 class="cta__title">Ready to start?</h2>
+            <p class="cta__sub">Get a free quote today.</p>
+            <div class="cta__buttons">
+                <a href="#" class="btn btn--primary" id="ctaMainBtn"><i class="fas fa-paper-plane"></i> Let's Talk To Him</a>
+                <a href="#" class="btn btn--outline" id="ctaAIBtn"><i class="fas fa-robot"></i> AI Modified</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                Need this website?
+                <a href="https://wa.me/1238145124446?text=Hi%20Humble%2C%20I%20need%20a%20website!" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp: +123 814 512 4446
+                </a>
+            </p>
+            <span class="price">Starting from $150</span>
+            <p style="margin-top:12px; font-size:0.7rem; opacity:0.5;">
+                &copy; 2026 Humble Dav — Web Developer &amp; Digital Creator
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

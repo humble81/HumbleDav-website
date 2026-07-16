@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog — Humble Dav</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="container">
+            <a href="index.html" class="nav__logo">Humble Dav</a>
+            <div class="nav__links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="blog.html" class="active">Blog</a>
+                <a href="contact.html">Contact</a>
+                <a href="contact.html" class="nav__cta">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="orb" aria-hidden="true"></div>
+    <div class="orb orb--bottom" aria-hidden="true"></div>
+
+    <main class="container">
+        <header class="hero" style="border-bottom: none; margin-bottom: 20px;">
+            <div class="hero__badge"><i class="fas fa-pen-fancy" style="color:var(--accent);"></i> Insights</div>
+            <h1 class="hero__name" style="font-size: clamp(2.4rem, 6vw, 3.6rem);">Blog</h1>
+            <p class="hero__title">Tips, trends, and stories from the digital front</p>
+        </header>
+
+        <div class="blog-grid">
+            <!-- Blog post 1 -->
+            <div class="blog-card">
+                <div class="blog-card__image"><i class="fas fa-rocket"></i></div>
+                <div class="blog-card__meta">May 15, 2026 · 5 min read</div>
+                <h3 class="blog-card__title">Why Performance Matters for Conversions</h3>
+                <p class="blog-card__desc">A deep dive into how page speed impacts user experience and sales.</p>
+                <a href="#" style="color:var(--accent); font-weight:600;">Read More →</a>
+            </div>
+            <!-- Blog post 2 -->
+            <div class="blog-card">
+                <div class="blog-card__image"><i class="fas fa-palette"></i></div>
+                <div class="blog-card__meta">May 2, 2026 · 4 min read</div>
+                <h3 class="blog-card__title">2026 Design Trends You Can't Ignore</h3>
+                <p class="blog-card__desc">From glassmorphism to bold typography – what's hot right now.</p>
+                <a href="#" style="color:var(--accent); font-weight:600;">Read More →</a>
+            </div>
+            <!-- Blog post 3 -->
+            <div class="blog-card">
+                <div class="blog-card__image"><i class="fas fa-seedling"></i></div>
+                <div class="blog-card__meta">Apr 20, 2026 · 6 min read</div>
+                <h3 class="blog-card__title">Sustainable Web Design: Reduce Your Carbon Footprint</h3>
+                <p class="blog-card__desc">How to build eco‑friendly websites that are fast and efficient.</p>
+                <a href="#" style="color:var(--accent); font-weight:600;">Read More →</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                Need this website?
+                <a href="https://wa.me/923094552361?text=Hi%20Hamza%2C%20I%20need%20a%20website!" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp: +92 309 4552361
+                </a>
+            </p>
+            <span class="price">Starting from $150</span>
+            <p style="margin-top:12px; font-size:0.7rem; opacity:0.5;">
+                &copy; 2026 Humble Dav — Web Developer &amp; Digital Creator
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
